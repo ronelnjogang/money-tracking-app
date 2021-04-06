@@ -1,6 +1,7 @@
 .main-div {
   h1{
     font-size: 1.7rem;
+    font-weight: bold;
   }
   .list{
     margin-top: 30px;
@@ -13,7 +14,7 @@
       --border-color:#ddd;
     }
     ion-label{
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-weight: 500;
       p{
         font-size: 0.8rem;
@@ -21,14 +22,20 @@
       }
       p.expense{
         color: red;
+      font-weight: 700;
+
       }
       p.income{
         color: green;
+      font-weight: 700;
+
       }  
-      p.amount{
-        color: #000000;
-      }          
+         
     }
+    p.amount{
+      color: #000000;
+      font-weight: 700;
+    } 
     ion-item-sliding:last-child{
       margin-bottom: 50px;
     }
